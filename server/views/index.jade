@@ -1,0 +1,22 @@
+extends ../includes/layout
+
+block main-content
+    .navbar.navbar-inverse.navbar-fixed-top
+        .container
+            .navbar-header
+                a.navbar-brand(href="/") Mean Test
+                    h6 - Extreme Mean Testin
+            .navbar-collapse.collapse
+                ul.nav.navbar-nav
+                    li
+                        a(href="/") Home
+                div(ng-include="'/partials/account/navbar-login'")
+                
+    div(ng-controller="mmMainCtrl as main")
+        div(ng-view)
+        form(ng-submit="submitForm()")
+            input(type="text" ng-model="name")
+            input(type="submit" class="btn btn-primary" value="Submit")
+        
+    footer.container.text-center
+        p &copy; 2015 Mean Stack Corp.

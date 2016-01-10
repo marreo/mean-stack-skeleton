@@ -1,0 +1,34 @@
+*.sw*
+*~
+
+# Logs and databases #
+######################
+*.log
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+bower_components/
+dist/
+.idea/
+node_modules/
+.sass-cache/
+vendor/*
+src/public/css
+.idea/
+
+# matt's ui environment
+ui-preview/
+assets/
+Prepros Build/
+
+# VS environment
+.vscode/
