@@ -25,10 +25,6 @@ vendor/*
 src/public/css
 .idea/
 
-# matt's ui environment
-ui-preview/
-assets/
-Prepros Build/
 
 # VS environment
-.vscode/
+vscode/
